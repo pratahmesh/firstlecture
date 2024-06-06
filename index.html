@@ -1,8 +1,93 @@
-<html>
-    <head>
-        My webpage
-    </head>
-    <body>
-        <H1>Hello, Elites</H1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            margin: 50px;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        .innerfirst {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            width: 45%;
+            text-align: center;
+
+        }
+
+        .innersecond {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: aqua;">
+
+    <div style="background-color: blue;" class="outer div">
+
+        <div class="innerfirst" style="background-color: lightgreen;">
+            <div class="div_1"
+                style="background-color: purple;text-align: left; display:flex; flex-direction: row; justify-content: space-between;">
+                <h3 style="color: white; margin-left: 5px;"><i>elite chat</i></h3>
+                <div style="display: flex; flex-direction: row;">
+                    <h3 style="color: white; text-align: right; margin-right: 10px;">Jayesh</h3>
+                    <button
+                        style="border-radius: 30%; margin-top: 20px; margin-bottom: 20px; margin-right: 5px;">logout</button>
+                </div>
+
+            </div>
+            <div>
+                <input type="text" placeholder="find a user"
+                    style="background-color: lightgreen; margin-top: 10px; display: flex; align-items: left; margin-left: 5px; width: 95%;">
+            </div>
+            <div style="margin-top: 20px;display: flex;flex-direction: row;">
+                <h3 style="margin-right: 20px;margin-left: 10px;"><img src="./download.jpg" height="50px" style="border-radius: 50%;" alt=""></h3>
+                <h3>carol</h3>
+            </div>
+            <div style="margin-top: 20px;display: flex;flex-direction: row;">
+                <h3 style="margin-right: 20px;margin-left: 10px;"><img src="./download.jpg" height="50px" style="border-radius: 50%;" alt=""></h3>
+                <h3>jane</h3>
+            </div>
+            <div style="margin-top: 20px;display: flex;flex-direction: row;">
+                <h3 style="margin-right: 20px;margin-left: 10px;"><img src="./download.jpg" height="50px" style="border-radius: 50%;" alt=""></h3>
+                <h3>Tyler</h3>
+            </div>
+            <div style="margin-top: 20px;display: flex;flex-direction: row;">
+                <h3 style="margin-right: 20px;margin-left: 10px;"><img src="./download.jpg" height="50px" style="border-radius: 50%;" alt=""></h3>
+                <h3>ashley</h3>
+            </div>          
+        </div>
+
+        <div class="innersecond" style="background-color: lightblue;display: flex;flex-direction: column;justify-content: space-between;">
+            <div style="display: flex;flex-direction: row;justify-content: space-between;background-color: rgb(127, 142, 255);">
+                <h2>hello</h2>
+                <div style="display: flex;flex-direction: row; ">
+                    <h2>a</h2>
+                    <h2>b</h2>
+                    <h2>c</h2>
+                </div>
+            </div>
+            <div>
+                <p>done</p>
+            </div>
+            <div style="display: flex;flex-direction: row;justify-content: space-between;background-color: rgb(127, 140, 255);">
+                <p>hello</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
